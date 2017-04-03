@@ -1,0 +1,61 @@
+﻿.default img{
+    margin-left:115px;
+}
+div.nav { /*refence from http://www.w3schools.com/css/css_navbar.asp , retrieved on 23 March 2017*/
+    text-align: center;
+    background-color: #c3c5cd; /*this is the color of the overall navigation button*/
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 2px;
+    color: black;
+}
+.nav a { /*refence from http://www.w3schools.com/css/css_navbar.asp , retrieved on 23 March 2017*/
+    color: black;
+    margin: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover { /*when hover over the navigation button, davy gray color would appear on the button*/
+    background-color: #808080; 
+}
+div.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #c3c5cd;
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align:center;
+}
+h5{
+    text-align:center;
+}
+.Table-container{
+    border: solid black;
+    background-color:transparent;
+}
+div.container {
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
+    background-color: white;
+    width: 750px;
+    border: 1px solid gray;
+    margin: auto;
+}
+div.container1 {
+    text-align:center;
+}
+div.container2{
+
+}

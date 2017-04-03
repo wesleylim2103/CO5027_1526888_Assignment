@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Razer_Company.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+
+    <!--This is the stylesheet file-->
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+    <title></title>  
+    <asp:ContentPlaceHolder ID="head" runat="server">      
+    </asp:ContentPlaceHolder>
+</head>
+<body> 
+    <form id="form1" runat="server">   
+        <h1>Razer Company</h1>
+            <div class="nav">
+            <nav>
+                <a href="/Admin/default.aspx" runat="server">Home</a>
+                <a href="/Product.aspx" runat="server">Product</a>
+                <a href="/About.aspx" runat="server">About Us</a>
+                <a href="/Contact.aspx" runat="server">Contact</a>
+            </nav>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer">
+            <footer>
+                <p>Copyright Chester ID 1526888 @2017 All rights reserved.</p>
+            </footer>
+            </div>
+        
+    </form>
+</body>
+</html>
