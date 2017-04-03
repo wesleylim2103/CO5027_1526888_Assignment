@@ -29,8 +29,8 @@
                 </td>
 
                 <td>
-    <h4>RazerNage Hex - BND $ 120.00</h4>
-    <img src="Image/razer_naga.png" style="height: 280px; width: 425px" />
+    <h4>RazerNaga Hex - BND $ 120.00</h4>
+    <a href="/rzrnaga.aspx"><img src="Image/razer_naga.png" style="height: 280px; width: 425px" /></a>
                 </td>
 
                 <td>
