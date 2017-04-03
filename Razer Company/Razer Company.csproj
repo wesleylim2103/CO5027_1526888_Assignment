@@ -81,6 +81,7 @@
     <Content Include="rzrblade.aspx" />
     <Content Include="rzrfirefly.aspx" />
     <Content Include="rzrkrakenprov2.aspx" />
+    <Content Include="rzrnaga.aspx" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -164,6 +165,13 @@
     </Compile>
     <Compile Include="rzrkrakenprov2.aspx.designer.cs">
       <DependentUpon>rzrkrakenprov2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rzrnaga.aspx.cs">
+      <DependentUpon>rzrnaga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rzrnaga.aspx.designer.cs">
+      <DependentUpon>rzrnaga.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
