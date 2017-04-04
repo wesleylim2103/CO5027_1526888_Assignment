@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Product.aspx.cs" Inherits="Razer_Company.Product" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style2 {
+            margin-left: 40px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h3>Gaming Gear Product</h3>
@@ -8,8 +13,7 @@
             <tr>
                 <td>
     <h4>RazerBlade - BND $ 3000</h4>
-     <a href="/rzrblade.aspx"><img src="Image/rzrblade.png" style="height: 280px; width: 433px"/ ></a>  
-                </td>
+     <a href="/rzrblade.aspx"><img src="Image/rzrblade.png" style="height: 280px; width: 433px"/ ></a></td>
            
                 <td>
     <h4>Razer Blackwidow Chroma V2 - BND $ 179.00</h4>

@@ -22,5 +22,6 @@
         <p>Battery: Built-in 70Wh rechargable lithium-ion polymer battery</p>
         <p>Approx-Size: 0.70" / 17.9mm (height)x13.6"/ 345mm(Width)x 9.3"/ 235 mm (Depth)</p>
         <p>Approx-Weight: 4.10lbs /1.86kg</p>
+        <asp:Button ID="Button1" runat="server" Text="Buy Now" />
     </div>
 </asp:Content>
