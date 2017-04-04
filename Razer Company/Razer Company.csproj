@@ -68,6 +68,7 @@
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Image\CEO Min Liang Tan.jpg" />
+    <Content Include="Image\lcb.JPG" />
     <Content Include="Image\razer_firefly.png" />
     <Content Include="Image\Razer_logo.jpg" />
     <Content Include="Image\razer_naga.png" />
