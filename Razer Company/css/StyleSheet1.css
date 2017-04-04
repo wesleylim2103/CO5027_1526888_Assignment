@@ -21,7 +21,7 @@ div.nav {
 .nav a:hover { 
     background-color: #808080; 
 }
-div.footer {
+footer {
     position: relative;
     right: 0;
     bottom: 0;
@@ -45,7 +45,7 @@ h5{
     border: solid black;
     background-color:transparent;
 }
-div.container {
+.container {
     padding: 20px;
     font-weight: bold;
     text-align: center;
@@ -55,6 +55,6 @@ div.container {
     border: 1px solid gray;
     margin: auto;
 }
-div.container1 {
+.container1 {
     text-align:center;
 }
