@@ -11,5 +11,6 @@
             <p>7 Button mechanical thumb wheel</p>
             <p>Total of 14 MOBA optimized programmable buttons</p>
             <p>Rubberized thumb grip</p>
+            <p>True 16,000 DPI 5G laser sensor</p>
         </div>
 </asp:Content>
