@@ -5,5 +5,5 @@
     <img src="../Image/Razer_logo.jpg" />
     <div class="default">
         <a href="/razerblade.aspx"><img src="../Image/razer-blade-foreground.1.png" /></a>
-    </div>
+    </div> 
     </asp:Content>
