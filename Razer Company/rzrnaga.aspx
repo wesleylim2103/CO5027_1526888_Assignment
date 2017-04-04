@@ -12,5 +12,6 @@
             <p>Total of 14 MOBA optimized programmable buttons</p>
             <p>Rubberized thumb grip</p>
             <p>True 16,000 DPI 5G laser sensor</p>
+            <p>Razer Synapse enabled</p>
         </div>
 </asp:Content>
