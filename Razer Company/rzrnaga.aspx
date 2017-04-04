@@ -8,5 +8,7 @@
             <h2>Razer Naga Hex </h2>
         <h3><u>Specification</u></h3>
         <p>Price: $120 BND</p>
+            <p>7 Button mechanical thumb wheel</p>
+            <p>Total of 14 MOBA optimized programmable buttons</p>
         </div>
 </asp:Content>
