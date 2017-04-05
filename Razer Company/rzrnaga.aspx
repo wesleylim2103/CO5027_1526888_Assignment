@@ -13,5 +13,6 @@
             <p>Rubberized thumb grip</p>
             <p>True 16,000 DPI 5G laser sensor</p>
             <p>Razer Synapse enabled</p>
+            <p>Inter-device color synchronization</p>
         </div>
 </asp:Content>
