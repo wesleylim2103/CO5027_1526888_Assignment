@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <a href="/Product.aspx" runat="server"><b>Back</b></a>
+     <a href="Product.aspx" runat="server"><b>Back</b></a>
         <div class="container">
         <img src="Image/razer_firefly.png" style="height: 280px; width: 433px"/>
         <h2>Razer Kraken Pro V 2 </h2>
