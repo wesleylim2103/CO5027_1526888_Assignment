@@ -8,7 +8,7 @@
 
     <!--This is the stylesheet file-->
     <link href="css/StyleSheet1.css" rel="stylesheet" />
-    <title></title>  
+    <title>razer company</title>  
     <asp:ContentPlaceHolder ID="head" runat="server">      
     </asp:ContentPlaceHolder>
 </head>
@@ -28,7 +28,13 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <footer>
-                <p>Copyright Chester ID 1526888 @2017 All rights reserved.</p>
+                <p>Copyright Chester ID 1526888 @2017 All rights reserved.
+   <a href="http://css-validator.org/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://css-validator.org/images/vcss.png"
+            alt="Valid CSS!" />
+    </a>
+</p>
             </footer>
 
         

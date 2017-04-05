@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <a href="default.aspx" runat="server"><b>Back</b></a>
     <div class="container">
-        <img src="Image/rzrblade.png" style="height: 280px; width: 433px"/ >
+        <img src="Image/rzrblade.png" style="height: 280px; width: 433px"/ > <!-- Image is Retrieve from https://www.razerzone.com/gaming-systems/razer-blade on the 26 march 2017 -->
         <h2>Razer Blade </h2>
         <h3><u>Specification</u></h3>
         <p>Price: $3000 BND</p>
