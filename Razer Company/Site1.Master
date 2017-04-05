@@ -17,11 +17,11 @@
         <h1>Razer Company</h1>
             <div class="nav">
             <nav>
-                <a href="/Admin/default.aspx" runat="server">Home</a>
-                <a href="/Product.aspx" runat="server">Product</a>
-                <a href="/About.aspx" runat="server">About Us</a>
-                <a href="/Contact.aspx" runat="server">Contact</a>
-                <a href="Login.aspx" runat="server">Admin</a>
+                <a href="~/Admin/default.aspx" runat="server">Home</a>
+                <a href="~/Product.aspx" runat="server">Product</a>
+                <a href="~/About.aspx" runat="server">About Us</a>
+                <a href="~/Contact.aspx" runat="server">Contact</a>
+                <a href="~/Login.aspx" runat="server">Admin</a>
                 
             </nav>
             </div>
