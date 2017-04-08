@@ -41,10 +41,6 @@ h4{
 h5{
     text-align:center;
 }
-.Table-container{
-    border: solid black;
-    background-color:transparent;
-}
 .container {
     padding: 20px;
     font-weight: bold;
@@ -57,4 +53,14 @@ h5{
 }
 .container1 {
     text-align:center;
+}
+.container2 {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
+    background-color: white;
+    width: 1309px;
+    border: 1px solid gray;
+    margin: auto;
 }

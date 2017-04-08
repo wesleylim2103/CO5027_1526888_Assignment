@@ -6,7 +6,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h3>Gaming Gear Product</h3>
-    <div class="Table-container">
+    <div class="container2">
         <table>
             <tr>
                 <td>
