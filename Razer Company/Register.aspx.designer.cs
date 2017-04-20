@@ -10,96 +10,96 @@
 namespace Razer_Company {
     
     
-    public partial class Contact {
+    public partial class Register {
         
         /// <summary>
-        /// Name control.
+        /// LblUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Name;
+        protected global::System.Web.UI.WebControls.Label LblUsername;
         
         /// <summary>
-        /// txtname control.
+        /// TextUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtname;
+        protected global::System.Web.UI.WebControls.TextBox TextUsername;
         
         /// <summary>
-        /// Email control.
+        /// Lblpassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Email;
+        protected global::System.Web.UI.WebControls.Label Lblpassword;
         
         /// <summary>
-        /// txtemail control.
+        /// TextPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtemail;
+        protected global::System.Web.UI.WebControls.TextBox TextPassword;
         
         /// <summary>
-        /// Subject control.
+        /// LblName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Subject;
+        protected global::System.Web.UI.WebControls.Label LblName;
         
         /// <summary>
-        /// txtsubject control.
+        /// TextName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtsubject;
+        protected global::System.Web.UI.WebControls.TextBox TextName;
         
         /// <summary>
-        /// Message control.
+        /// LblEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Message;
+        protected global::System.Web.UI.WebControls.Label LblEmail;
         
         /// <summary>
-        /// txtmessage control.
+        /// TextEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtmessage;
+        protected global::System.Web.UI.WebControls.TextBox TextEmail;
         
         /// <summary>
-        /// BtnSubmit control.
+        /// LoginButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnSubmit;
+        protected global::System.Web.UI.WebControls.Button LoginButton;
         
         /// <summary>
-        /// LitMessage control.
+        /// LitError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LitMessage;
+        protected global::System.Web.UI.WebControls.Literal LitError;
     }
 }

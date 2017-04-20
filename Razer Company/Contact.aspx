@@ -24,7 +24,8 @@
     <p><asp:Label ID="Message" runat="server" Text="Message"></asp:Label>
     <asp:TextBox ID="txtmessage" runat="server" Width="365px"></asp:TextBox></p>
         <p>&nbsp;</p>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" Width="79px" />
+        <asp:Button ID="BtnSubmit" runat="server" Text="send" OnClick="BtnSubmit_Click" />
         <p>&nbsp;</p>
+        <asp:Literal ID="LitMessage" runat="server"></asp:Literal>
     </div>
 </asp:Content>
