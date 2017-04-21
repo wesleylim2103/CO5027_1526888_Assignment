@@ -14,7 +14,7 @@
 </head>
 <body> 
     <form id="form1" runat="server">   
-        <h1>Razer Company</h1>
+        <img src="Image/Razer_logo.jpg" />
             <div class="nav">
             <nav>
                 <a href="~/default.aspx" runat="server">Home</a>

@@ -14,5 +14,6 @@
         <br />
         <asp:Button ID="BtnLogin" runat="server" Text="Login" OnClick="Login_Click" />
         <asp:Literal ID="LitLogError" runat="server"></asp:Literal>
+        <p>click here if you do not have a account<a href="Register.aspx">Register</a></p>
     </div>
 </asp:Content>

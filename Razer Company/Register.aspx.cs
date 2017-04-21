@@ -33,7 +33,6 @@ namespace Razer_Company
             IdentityRole endUserRole = new IdentityRole("endUser");
             roleManager.Create(endUserRole);
             manager.AddToRole(user.Id, "endUser");
-            IdentityResult decision = manager.Update(user);
 
             if (result.Succeeded)
             {

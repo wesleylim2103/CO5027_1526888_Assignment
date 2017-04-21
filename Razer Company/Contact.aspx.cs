@@ -27,11 +27,11 @@ namespace Razer_Company
             smtpClient.UseDefaultCredentials = false;
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("dummyacc5027@gmail.com", "wes210395");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("wesleylim2103@gmail.com", "wes210395");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("dummyacc5027@gmail.com", txtemail.Text);
+            MailMessage msg = new MailMessage("wesleylim2103@gmail.com", txtemail.Text);
             msg.Subject = "Name: " + txtname.Text + "Subject: " + txtsubject.Text;
             smtpClient.Send(msg);
 

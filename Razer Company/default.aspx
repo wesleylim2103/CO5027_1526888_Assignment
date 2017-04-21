@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <img src="Image/Razer_logo.jpg" />
+    
     <div class="default">
         <a href="razerblade.aspx"><img src="Image/razer-blade-foreground.1.png" /></a> <!-- Image is Retrieve from “https://www.razerzone.com/”  on the 24 march 2017 -->
     </div> 
