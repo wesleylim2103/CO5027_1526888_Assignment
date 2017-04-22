@@ -1,16 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Razer_Company.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style2 {
-        width: 675px;
-        height: 489px;
-    }
-    </style>
-</asp:Content>
+    </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Contact Us</h2>
     <div class="container1">
-                <img src="Image/lcb.JPG" height:"535" width:"383" class="auto-style2" />
+    <div id="map"></div>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiRqbNfc5E6qsAeaXcS_vneC2RJJPv88s&callback=initMap">
+   </script>
+    <script src="MapJavaScript.js"></script>
         <br />
    <p><asp:Label ID="Name" runat="server" Text="Name" AssociatedControlID="Name"></asp:Label>
     <asp:TextBox ID="txtname" runat="server" Width="365px"></asp:TextBox></p>
@@ -27,5 +24,6 @@
         <asp:Button ID="BtnSubmit" runat="server" Text="send" OnClick="BtnSubmit_Click" />
         <p>&nbsp;</p>
         <asp:Literal ID="LitMessage" runat="server"></asp:Literal>
+
     </div>
 </asp:Content>

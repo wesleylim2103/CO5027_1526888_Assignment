@@ -64,3 +64,8 @@ h5{
     border: 1px solid gray;
     margin: auto;
 }
+#map{
+    width:100%;
+    height:400px;
+    background-color:grey;
+}

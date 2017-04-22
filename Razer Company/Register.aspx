@@ -20,7 +20,7 @@
         <asp:TextBox ID="TextEmail" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="LoginButton" runat="server" Text="Login" OnClick="LoginButton_Click" />
+        <asp:Button ID="LoginButton" runat="server" Text="Signup" OnClick="LoginButton_Click" />
         <asp:Literal ID="LitError" runat="server"></asp:Literal>
     </div>
 </asp:Content>

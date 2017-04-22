@@ -16,9 +16,9 @@ namespace Razer_Company
 
         }
 
-        protected void Login_Click(object sender, EventArgs e)
+        protected void BtnLogin_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("IdentotyConnectionString");
+            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(TextUsername.Text, TextPassword.Text);
@@ -29,8 +29,9 @@ namespace Razer_Company
             }
             else
             {
-                LitLogError.Text = "Invalid Username or Password.";
+                LitLogError.Text = "Invalid Username or Password, Please try again.";
             }
+
         }
 
         private void LogUserIn (UserManager<IdentityUser> usermanager, IdentityUser user)
@@ -38,7 +39,7 @@ namespace Razer_Company
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
             authenticationManager.SignIn(new Microsoft.Owin.Security.AuthenticationProperties() { }, userIdentity);
-            //Note: user is automatically redirected if trying to access another page
+            //Note: user is automatically redirected if they try to access another page.
         }
     }
 }

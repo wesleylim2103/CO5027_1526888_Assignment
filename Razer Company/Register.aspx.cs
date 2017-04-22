@@ -17,9 +17,10 @@ namespace Razer_Company
         }
         protected void LoginButton_Click(object sender, EventArgs e)
         {
-            //create a dbcontent that specified the connection string
+            // create a dbcontext that specified the connection string
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
-            //create user store and user manager 
+
+            //create user store and user manager
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
 
@@ -30,9 +31,10 @@ namespace Razer_Company
             var user = new IdentityUser() { UserName = TextUsername.Text, Email = TextEmail.Text };
             IdentityResult result = manager.Create(user, TextPassword.Text);
 
-            IdentityRole endUserRole = new IdentityRole("endUser");
+            IdentityRole endUserRole = new IdentityRole("admin");
+            //create role name (admin)
             roleManager.Create(endUserRole);
-            manager.AddToRole(user.Id, "endUser");
+            manager.AddToRole(user.Id, "admin");
 
             if (result.Succeeded)
             {
