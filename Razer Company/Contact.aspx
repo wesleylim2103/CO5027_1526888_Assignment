@@ -1,9 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Razer_Company.Contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    </asp:Content>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2>Contact Us</h2>
-    <div class="container1">
+        <div class="container1">
     <div id="map"></div>
    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiRqbNfc5E6qsAeaXcS_vneC2RJJPv88s&callback=initMap">
    </script>
@@ -21,9 +20,8 @@
     <p><asp:Label ID="Message" runat="server" Text="Message"></asp:Label>
     <asp:TextBox ID="txtmessage" runat="server" Width="365px"></asp:TextBox></p>
         <p>&nbsp;</p>
-        <asp:Button ID="BtnSubmit" runat="server" Text="send" OnClick="BtnSubmit_Click" />
+            <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
         <p>&nbsp;</p>
         <asp:Literal ID="LitMessage" runat="server"></asp:Literal>
-
-    </div>
+        </div>
 </asp:Content>

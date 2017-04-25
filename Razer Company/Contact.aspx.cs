@@ -15,23 +15,18 @@ namespace Razer_Company
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void BtnSubmit_Click(object sender, EventArgs e)
+        protected void SubmitButton_Click(object sender, EventArgs e)
         {
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
             smtpClient.UseDefaultCredentials = false;
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("wesleylim2103@gmail.com", "wes210395");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("wes21038@gmail.com", "wes210395");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("wesleylim2103@gmail.com", txtemail.Text);
+            MailMessage msg = new MailMessage("wes21038@gmail.com", txtemail.Text);
             msg.Subject = "Name: " + txtname.Text + "Subject: " + txtsubject.Text;
             smtpClient.Send(msg);
 
@@ -42,7 +37,7 @@ namespace Razer_Company
             }
             catch (Exception exp)
             {
-                LitMessage.Text = "<p>Send Failed" + exp.Message + ":" + exp.InnerException + "</P>";
+                LitMessage.Text = "<p>Send Failed" + exp.Message + ":" + exp.InnerException + "</p>";
             }
         }
     }
