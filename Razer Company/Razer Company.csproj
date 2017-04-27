@@ -113,7 +113,7 @@
     <Content Include="Image\rzrblkwdw.png" />
     <Content Include="Image\rzr_krakenprov2.png" />
     <Content Include="Login.aspx" />
-    <Content Include="MapJavaScript.js" />
+    <Content Include="Scripts\MapJavaScript.js" />
     <Content Include="packages.config" />
     <Content Include="PrivatePage.aspx" />
     <Content Include="razerblade.aspx" />

@@ -6,7 +6,7 @@
     <div id="map"></div>
    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiRqbNfc5E6qsAeaXcS_vneC2RJJPv88s&callback=initMap">
    </script>
-    <script src="MapJavaScript.js"></script>
+    <script src="Scripts/MapJavaScript.js"></script>
                 <br />
                 <asp:Label ID="LblName" runat="server" Text="Name" AssociatedControlID="TxtName"></asp:Label>
                 <asp:TextBox ID="TxtName" runat="server"></asp:TextBox>

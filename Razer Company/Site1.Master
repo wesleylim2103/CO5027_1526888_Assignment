@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--This is the stylesheet file-->
     <link href="css/StyleSheet1.css" rel="stylesheet" />
@@ -32,8 +32,7 @@
    <a href="http://css-validator.org/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://css-validator.org/images/vcss.png"
-            alt="Valid CSS!" />
-    </a>
+            alt="Valid CSS!" /></a> <a href="https://validator.w3.org/"> Markup Validation</a>  <a href="https://jigsaw.w3.org/css-validator/" >CSS Validation</a>     
 </p>
             </footer>
 
