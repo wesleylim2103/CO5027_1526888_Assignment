@@ -15,7 +15,7 @@ namespace Razer_Company
 
         }
 
-        protected void SubmitButton_Click(object sender, EventArgs e)
+        protected void ButtonSubmit_Click(object sender, EventArgs e)
         {
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
@@ -26,18 +26,19 @@ namespace Razer_Company
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("wes21038@gmail.com", txtemail.Text);
-            msg.Subject = "Name: " + txtname.Text + "Subject: " + txtsubject.Text;
+            MailMessage msg = new MailMessage("wes21038@gmail.com", TxtEmail.Text);
+            msg.Subject = "Name: " + TxtMessage.Text + TxtName.Text + "subject: " + TxtSubject.Text;
+            msg.Body = TxtMessage.Text;
             smtpClient.Send(msg);
 
             try
             {
                 smtpClient.Send(msg);
-                LitMessage.Text = "<p>Success, Mail was sent using SMTP with secure connection and credentials</p>";
+                LitError.Text = "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
             }
             catch (Exception exp)
             {
-                LitMessage.Text = "<p>Send Failed" + exp.Message + ":" + exp.InnerException + "</p>";
+                LitError.Text = "<p>Send failed:" + exp.Message + ":" + exp.InnerException + "</p>";
             }
         }
     }
