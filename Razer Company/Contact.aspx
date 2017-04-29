@@ -10,18 +10,26 @@
                 <br />
                 <asp:Label ID="LblName" runat="server" Text="Name" AssociatedControlID="TxtName"></asp:Label>
                 <asp:TextBox ID="TxtName" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="ErrorName" runat="server" ErrorMessage="Please Fill in Name" ControlToValidate="TxtName" EnableTheming="True" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
                 <br />
                  <asp:Label ID="LblEmal" runat="server" Text="Email" AssociatedControlID="TxtEmail"></asp:Label>
-                <asp:TextBox ID="TxtEmail" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtEmail" runat="server" TextMode="Email"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="ErrorEmail" runat="server" ErrorMessage="Please Fill in Email" ControlToValidate="TxtEmail" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
                 <br />
+         
                  <asp:Label ID="LblMessage" runat="server" Text="Message" AssociatedControlID="TxtMessage"></asp:Label>
                 <asp:TextBox ID="TxtMessage" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="ErrorMessage" runat="server" ErrorMessage="Please Fill in Message." ControlToValidate="TxtMessage" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
                 <br />
+                
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
                  <asp:Label ID="LblSubject" runat="server" Text="Subject" AssociatedControlID="TxtSubject"></asp:Label>
                 <asp:TextBox ID="TxtSubject" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="ErrorSubject" runat="server" ErrorMessage="Please Fill in the Subject Textbox." ControlToValidate="TxtSubject" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
                 <br />
                 <asp:Button ID="ButtonSubmit" runat="server" Text="Submit" OnClick="ButtonSubmit_Click" />

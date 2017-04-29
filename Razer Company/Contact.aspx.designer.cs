@@ -31,6 +31,15 @@ namespace Razer_Company {
         protected global::System.Web.UI.WebControls.TextBox TxtName;
         
         /// <summary>
+        /// ErrorName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ErrorName;
+        
+        /// <summary>
         /// LblEmal control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace Razer_Company {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtEmail;
+        
+        /// <summary>
+        /// ErrorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ErrorEmail;
         
         /// <summary>
         /// LblMessage control.
@@ -67,6 +85,15 @@ namespace Razer_Company {
         protected global::System.Web.UI.WebControls.TextBox TxtMessage;
         
         /// <summary>
+        /// ErrorMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ErrorMessage;
+        
+        /// <summary>
         /// LblSubject control.
         /// </summary>
         /// <remarks>
@@ -83,6 +110,15 @@ namespace Razer_Company {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtSubject;
+        
+        /// <summary>
+        /// ErrorSubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ErrorSubject;
         
         /// <summary>
         /// ButtonSubmit control.
