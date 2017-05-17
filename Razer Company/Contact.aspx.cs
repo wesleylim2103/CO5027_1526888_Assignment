@@ -26,11 +26,10 @@ namespace Razer_Company
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("wes21038@gmail.com", TxtEmail.Text);
-            msg.Subject = "Name: " + TxtMessage.Text + TxtName.Text + "subject: " + TxtSubject.Text;
+            MailMessage msg = new MailMessage("wes21038@gmail.com", "wes21038@gmail.com");
+            msg.Subject = " Name: " + TxtMessage.Text + TxtName.Text + " subject: " + TxtSubject.Text;
             msg.Body = TxtMessage.Text;
-            smtpClient.Send(msg);
-
+            
             try
             {
                 smtpClient.Send(msg);

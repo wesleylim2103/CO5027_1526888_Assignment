@@ -18,24 +18,22 @@
             <div class="nav">
             <nav>
                 <a href="~/default.aspx" runat="server">Home</a>
-                <a href="~/Product.aspx" runat="server">Product</a>
                 <a href="~/About.aspx" runat="server">About Us</a>
                 <a href="~/Contact.aspx" runat="server">Contact</a>
-                <a href="~/Login.aspx" runat="server">Login</a>
-                
+                <a href="~/Login.aspx" runat="server">Login</a>              
             </nav>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <footer>
-                <p>Copyright Chester ID 1526888 @2017 All rights reserved.
+             <p>Copyright Chester ID 1526888 @2017 All rights reserved.
    <a href="http://css-validator.org/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://css-validator.org/images/vcss.png"
-            alt="Valid CSS!" /></a></p>
+            alt="Valid CSS!" /><a href="~/admin.aspx" runat="server">Admin</a></p>
                     
                   <p>  <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526888.studentwebserver.co.uk%2Fco5027%2Fdefault.aspx">Homepage Validation</a> <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526888.studentwebserver.co.uk%2Fco5027%2Fcontact.aspx"> &nbsp;Contact Validation</a>  
-                      <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526888.studentwebserver.co.uk%2Fco5027%2FProduct.aspx">Product Validation</a> <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526888.studentwebserver.co.uk%2Fco5027%2FAbout.aspx">About Us Validation</a>
+                       <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526888.studentwebserver.co.uk%2Fco5027%2FAbout.aspx">About Us Validation</a>
 </p>              
             </footer>
 

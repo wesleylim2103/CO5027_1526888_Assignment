@@ -41,5 +41,18 @@
             </tr>
             </table>
      </div>
-    </div> 
+        <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+        <HeaderTemplate><table></HeaderTemplate>
+        <itemtemplate>
+            <tr>
+                <td><a href="<%# Eval ("ProductID", "ProductDetail.aspx?Id={0}" ) %>"><%#Eval("ProductName") %></a></td>
+            </tr>
+        </itemtemplate>
+        <footertemplate></table></footertemplate>
+            </asp:Repeater>
+
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_1526888_co5027_asgConnectionString %>" SelectCommand="SELECT * FROM [Add,Edit and Delete]"></asp:SqlDataSource>
+         
+    </div>
+  
     </asp:Content>
